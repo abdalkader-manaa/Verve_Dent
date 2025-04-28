@@ -1,0 +1,1070 @@
+@media (max-width: 1036px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+}
+@media (max-width: 863px) {
+  .list ul li {
+    padding: 0 9px;
+  }
+}
+@media (max-width: 812px) {
+  .navbar {
+    position: fixed;
+  }
+  .list {
+    position: fixed;
+    top: 86px;
+    right: -400px;
+    width: 250px;
+    height: 100vh;
+    transition: 0.5s linear;
+    background-color: rgb(2 138 143);
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -ms-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+  }
+  .list ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .list ul li {
+    text-align: center;
+    padding-top: 60px;
+    display: block;
+  }
+  .checkbtn {
+    display: block;
+  }
+  #checkbox:checked ~ .list {
+    right: 0;
+  }
+}
+@media (max-width: 1395px) {
+  .d-home .text h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-block: 25px;
+    color: rgb(104, 248, 253);
+  }
+  .d-home .img {
+    width: 50%;
+    max-width: 47%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 50px;
+    padding-top: 50px;
+    right: 50px;
+  }
+  .img img {
+    width: 110%;
+  }
+}
+@media (max-width: 1305px) {
+  .d-home .text a.btn-s-home {
+    font-size: 15px;
+  }
+  .d-home .text .btn-f-home {
+    font-size: 15px;
+  }
+  .d-home .text h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1257px) {
+  .d-home .text a.btn-s-home {
+    font-size: 15px;
+  }
+  .d-home .text .btn-f-home {
+    font-size: 15px;
+  }
+  .d-home .img {
+    width: 50%;
+    max-width: 47%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 40px;
+    padding-top: 50px;
+    right: 50px;
+  }
+}
+@media (max-width: 1225px) {
+  .d-home .text h1 {
+    font-size: 37px;
+  }
+}
+@media (max-width: 1217px) {
+  .d-home .text a.btn-s-home {
+    font-size: 13px;
+  }
+  .d-home .text .btn-f-home {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1175px) {
+  .d-home .text .btn-head {
+    margin-block: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .d-home .text .btn-f-home {
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+    margin-right: 0;
+  }
+  .d-home .text a.btn-s-home {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+  }
+}
+@media (max-width: 889px) {
+  .d-home .img {
+    width: 50%;
+    max-width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 32px;
+    padding-top: 50px;
+    right: 50px;
+  }
+}
+@media (max-width: 795px) {
+  .d-home {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .d-home .text {
+    width: 100%;
+    margin-top: -5%;
+  }
+  .d-home .text .btn-f-home {
+    font-size: 20px;
+    text-align: center;
+    width: 99%;
+    margin: auto;
+    margin-right: 0;
+  }
+  .d-home .text a.btn-s-home {
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    width: 99%;
+  }
+  .d-home .text h1 {
+    font-size: 45px;
+  }
+  .d-home .img {
+    width: 50%;
+    max-width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 34px;
+    padding-top: 50px;
+    right: 0px;
+    margin: auto;
+  }
+}
+@media (max-width: 731px) {
+  .d-home .img {
+    width: 50%;
+    max-width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 26px;
+    padding-top: 50px;
+    right: 50px;
+  }
+}
+@media (max-width: 640px) {
+  .d-home .img {
+    width: 65%;
+    max-width: 65%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 33px;
+    padding-top: 50px;
+    right: 0px;
+  }
+}
+@media (max-width: 492px) {
+  .d-home .img {
+    width: 65%;
+    max-width: 65%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 30px;
+    padding-top: 50px;
+    right: 0px;
+  }
+}
+@media (max-width: 1438px) {
+  .a-box {
+    width: 50%;
+    padding-left: 10px;
+  }
+  .b-box {
+    width: 50%;
+  }
+}
+@media (max-width: 1139px) {
+  .btn-about {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1141px) {
+  .box1-about h3 {
+    font-size: 17px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 996px) {
+  .box1-about {
+    width: 50%;
+  }
+}
+@media (max-width: 808px) {
+  .about {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+  .d-about {
+    flex-direction: column;
+  }
+  .img-about {
+    width: 100%;
+    height: 250px;
+  }
+  .box-img img {
+    width: 100%;
+  }
+  .about .txt-about {
+    width: 100%;
+  }
+}
+@media (max-width: 591px) {
+  .txt-about {
+    padding-top: 100px;
+  }
+  .d-box-about {
+    flex-direction: column;
+  }
+  .d-about .box1-about {
+    width: 100%;
+  }
+  .a-box {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 1065px) {
+  .title p {
+    width: 75%;
+    max-width: 75%;
+    margin: auto;
+    color: rgb(128, 128, 128);
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+}
+@media (max-width: 664px) {
+  .title p {
+    width: 95%;
+    max-width: 95%;
+    margin: auto;
+    color: rgb(128, 128, 128);
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+}
+@media (max-width: 521px) {
+  .title p {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+}
+@media (max-width: 1393px) {
+  .meetBox .imgMeetBox {
+    width: 62%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 220px;
+  }
+}
+@media (max-width: 1335px) {
+  .meetBox .imgMeetBox img {
+    width: 102%;
+    position: absolute;
+    top: -90px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+}
+@media (max-width: 1233px) {
+  .meetBox .imgMeetBox img {
+    width: 104%;
+    position: absolute;
+    top: -70px;
+    left: -4px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+}
+@media (max-width: 1171px) {
+  .meetBox .imgMeetBox img {
+    width: 100%;
+    position: absolute;
+    top: -120px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+  .meetBox .imgMeetBox {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 237px;
+  }
+}
+@media (max-width: 901px) {
+  .meetBox .imgMeetBox img {
+    width: 102%;
+    position: absolute;
+    top: -100px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+  .meetBox .imgMeetBox {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 237px;
+  }
+}
+@media (max-width: 853px) {
+  .meetBox {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    margin-top: 140px;
+    z-index: 3;
+  }
+  .meetBox .imgMeetBox {
+    width: 75%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 260px;
+  }
+  .meetBox .imgMeetBox img {
+    width: 100%;
+    position: absolute;
+    top: -150px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+}
+@media (max-width: 777px) {
+  .meetBox .imgMeetBox {
+    width: 58%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 200px;
+  }
+  .meetBox .imgMeetBox img {
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+}
+@media (max-width: 716px) {
+  .meetBox {
+    width: 90%;
+    text-align: center;
+    position: relative;
+    margin-top: 160px;
+    z-index: 3;
+  }
+  .meetBox .imgMeetBox {
+    width: 58%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 300px;
+  }
+  .meetBox .imgMeetBox img {
+    width: 100%;
+    position: absolute;
+    top: -180px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+}
+@media (max-width: 683px) {
+  .meetBox {
+    width: 90%;
+    text-align: center;
+    position: relative;
+    margin-top: 180px;
+    z-index: 3;
+  }
+  .meetBox .imgMeetBox {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 270px;
+  }
+  .meetBox .imgMeetBox img {
+    width: 100%;
+    position: absolute;
+    top: -125px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+}
+@media (max-width: 617px) {
+  .meetBox .imgMeetBox {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 250px;
+  }
+}
+@media (max-width: 581px) {
+  .meetBox .imgMeetBox {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 220px;
+  }
+}
+@media (max-width: 555px) {
+  .meetBox .imgMeetBox {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 190px;
+  }
+}
+@media (max-width: 511px) {
+  .meetBox .imgMeetBox {
+    width: 55%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 200px;
+  }
+}
+@media (max-width: 429px) {
+  .meetBox .imgMeetBox {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 170px;
+  }
+  .meetBox .imgMeetBox img {
+    width: 100%;
+    position: absolute;
+    top: -90px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+  .d-meet {
+    margin-top: 0px;
+  }
+  .meetBox {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 394px) {
+  .meetBox .imgMeetBox {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 170px;
+  }
+  .meetBox .imgMeetBox img {
+    width: 100%;
+    position: absolute;
+    top: -70px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+}
+@media (max-width: 361px) {
+  .meetBox .imgMeetBox {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 150px;
+  }
+  .meetBox .imgMeetBox img {
+    width: 100%;
+    position: absolute;
+    top: -70px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+}
+@media (max-width: 322px) {
+  .meetBox .imgMeetBox {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    height: 130px;
+  }
+  .meetBox .imgMeetBox img {
+    width: 100%;
+    position: absolute;
+    top: -70px;
+    left: -1px;
+    right: 0;
+    overflow: hidden;
+    bottom: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.2s linear;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+}
+@media (max-width: 1197px) {
+  .titleServ {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .titleServ p {
+    font-size: 16px;
+    padding-bottom: 35px;
+    color: rgb(128, 128, 128);
+    line-height: 1.4;
+  }
+}
+@media (max-width: 1167px) {
+  .d-Serv {
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  .d-txtServ .l-txtServ {
+    width: 100%;
+  }
+  .d-txtServ .r-txtServ {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .d-serv .txtServ {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .d-Serv .txtServ .d-txtServ {
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+  }
+  .f-imgServ {
+    width: 100%;
+    overflow: visible;
+    position: relative;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    height: 650px;
+    display: block;
+  }
+  .imgServ {
+    width: 100%;
+    position: absolute;
+    border-radius: inherit;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+  }
+  .imgServ img {
+    width: 100%;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block;
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+    height: 100%;
+  }
+}
+@media (max-width: 1033px) {
+  .f-imgServ::after {
+    position: absolute;
+    content: "";
+    top: -0px;
+    right: -0px;
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    background-image: radial-gradient(rgb(2, 220, 227) 1px, transparent 1px),
+      radial-gradient(rgb(2, 220, 227) 1px, rgba(35, 84, 84, 0) 1px);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+    border-radius: 0;
+    z-index: -1;
+  }
+}
+@media (max-width: 677px) {
+  .f-imgServ {
+    width: 100%;
+    overflow: visible;
+    position: relative;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    height: 550px;
+    display: block;
+  }
+}
+@media (max-width: 568px) {
+  .f-imgServ {
+    width: 100%;
+    overflow: visible;
+    position: relative;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    height: 450px;
+    display: block;
+  }
+  .d-Serv .txtServ .d-txtServ {
+    width: 100%;
+    flex-direction: column;
+  }
+  .d-txtServ .r-txtServ {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1079px) {
+  .titleServ2 {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+  }
+  .titleServ2 p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: rgb(128, 128, 128);
+  }
+}
+@media (max-width: 657px) {
+  .titleServ2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .titleServ2 h2 {
+    color: rgb(1, 73, 75);
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 25px;
+  }
+  .titleServ2 p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: rgb(128, 128, 128);
+  }
+}
+@media (max-width: 816px) {
+  .box-ser3 {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 519px) {
+  .boxs2ser {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 935px) {
+  .titleBook {
+    width: 100%;
+  }
+  .titleBook p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+  .d-book {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .l-book {
+    width: 100%;
+  }
+  .r-book {
+    width: 100%;
+  }
+}
+@media (max-width: 623px) {
+  .btnBook {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    background-color: rgb(1, 73, 75);
+    padding: 20px 35px;
+    z-index: 1;
+  }
+}
+@media (max-width: 493px) {
+  .btnBook {
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    background-color: rgb(1, 73, 75);
+    padding: 20px 35px;
+    z-index: 1;
+  }
+}
+@media (max-width: 391px) {
+  .btnBook {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    background-color: rgb(1, 73, 75);
+    padding: 20px 35px;
+    z-index: 1;
+  }
+}
+@media (max-width: 361px) {
+  .btnBook {
+    position: absolute;
+    top: 45%;
+    left: 16%;
+    background-color: rgb(1, 73, 75);
+    padding: 20px 35px;
+    z-index: 1;
+  }
+}
+@media (max-width: 1067px) {
+  .titleTest {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+  }
+  .titleTest p {
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+    font-weight: 300;
+  }
+  .titleTest h2 {
+    margin-block: 25px;
+    font-size: 35px;
+    color: rgb(1, 73, 75);
+    font-weight: 600;
+  }
+}
+@media (max-width: 1257px) {
+  .boxTest {
+    width: 75%;
+    margin: 50px auto;
+    text-align: center;
+    cursor: grab;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 50px 50px;
+  }
+}
+@media (max-width: 859px) {
+  .boxTest {
+    width: 95%;
+    margin: 50px auto;
+    text-align: center;
+    cursor: grab;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 50px 50px;
+  }
+}
+@media (max-width: 391px) {
+  .boxTest {
+    padding: 30px 10px;
+  }
+}
+@media (max-width: 1352px) {
+  .txtSub p {
+    font-size: 15px;
+    padding-top: 25px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 1247px) {
+  .d-sub h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 1065px) {
+  .d-sub h2 {
+    font-size: 27px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 795px) {
+  .d-sub {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .d-sub .txtSub {
+    width: 100%;
+  }
+  .d-sub h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .form {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .txtSub p {
+    font-size: 16px;
+    padding-top: 25px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 793px) {
+  .footer .boxFooter {
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  .d-footer {
+    justify-content: center;
+  }
+  .footer {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 493px) {
+  .footer .boxFooter {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .d-footer {
+    justify-content: center;
+  }
+  .footer {
+    padding-bottom: 70px;
+  }
+}
